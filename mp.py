@@ -49,7 +49,7 @@ def prs():
     sl=a.get_length()*3
     for i in range(0,math.ceil(sl)):
         time.sleep(0.3)
-        pro.set(pygame.mixer.music.get_pos()/1000)
+        pro.set(pygame.mixer.music.get_pos()/100000)
 
 def threading():
     t1=Thread(target=prs)
