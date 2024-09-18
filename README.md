@@ -1,7 +1,7 @@
 # Music Player
 
 ## Description
-This is an open-source music player built using CustomTkinter and Pygame. It allows users to play, pause, and navigate through a small playlist of songs. The player also displays album art for the songs being played.
+This is an open-source music player built using CustomTkinter and Pygame. It allows users to play, pause, and navigate through a small playlist of songs. The player also displays album art for the songs being played. Additionally, users can now upload new songs and corresponding album art dynamically through the player interface.
 
 ## Features
 - **Custom UI**: Built using CustomTkinter for a modern look and feel.
@@ -9,6 +9,7 @@ This is an open-source music player built using CustomTkinter and Pygame. It all
 - **Album Art Display**: Displays the album art of the current song.
 - **Progress Bar**: Shows the progress of the song.
 - **Multi-threading**: Uses threading to keep the UI responsive during song playback.
+- **Upload Feature**: Allows users to upload new songs and corresponding album art through the UI.
 
 ## Requirements
 - Python 3.x
@@ -36,12 +37,17 @@ This is an open-source music player built using CustomTkinter and Pygame. It all
     - Ensure that corresponding album art images are placed in an `img` folder.
 
 ## Usage
-Run the script:
 
-```bash
-python mp.py
-```
-## Project Alocation Structure
+1. Run the script:
+
+    ```bash
+    python mp.py
+    ```
+
+2. **Upload Songs**:
+    - To upload new songs and their album art, use the "Upload" feature in the player interface. Select an `.mp3` file for the song, then choose an image file (PNG, JPG, JPEG) for the album art.
+
+## Project Allocation Structure
 
 ```bash
 .
