@@ -1,3 +1,5 @@
+# Author: Mohammad Shahazaad Ahmed
+# Description: Music Player built using tkinter, pygame, and customtkinter.
 import os
 import tkinter
 import tkinter.font
